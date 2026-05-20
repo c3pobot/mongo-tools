@@ -3,17 +3,26 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "nodemonConfig": {
+    "ignore": [
+      "/app/data/*"
+    ]
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scuba75/mongo-tools.git"
+    "url": "git+https://github.com/c3pobot/mongo-tools.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/scuba75/mongo-tools/issues"
+    "url": "https://github.com/scuba75/c3pobot/issues"
   },
-  "homepage": "https://github.com/scuba75/mongo-tools#readme"
+  "homepage": "https://github.com/c3pobot/mongo-tools#readme",
+  "dependencies": {
+    "node-cron": "^4.2.1"
+  }
 }

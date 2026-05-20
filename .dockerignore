@@ -1,0 +1,10 @@
+.git
+.gitignore
+data
+node_modules
+.env
+.env-example
+Dockerfile
+.testregistry
+build.sh
+node_modules
